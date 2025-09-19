@@ -21,6 +21,8 @@ public class Answer {
 
     private LocalDateTime createDate;
 
+    private LocalDateTime modifyDate;
+
     // 질문 하나 답변 여러개
     // 즉, Question -> 부모
     @ManyToOne

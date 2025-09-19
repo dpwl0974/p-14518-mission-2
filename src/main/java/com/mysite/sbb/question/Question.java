@@ -26,6 +26,8 @@ public class Question {
 
     private LocalDateTime createDate;
 
+    private LocalDateTime modifyDate;
+
     // mappedBy: 참조 엔터티 속성명
     // 답변 여러개 -> List
     @OneToMany(mappedBy = "question", cascade = CascadeType.REMOVE)
